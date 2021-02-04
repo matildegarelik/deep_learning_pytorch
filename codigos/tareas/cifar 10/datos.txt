@@ -1,0 +1,27 @@
+PRIMER ARQUITECTURA
+cantidad de hidden layers : 1
+tamaÃ±o hidden layer : 16
+fit de history: 
+1) epochs = 5 ; lr = 0.1
+2) epochs = 4 ; lr = 0.01
+3) epochs = 3 ; lr = 0.02
+4) epochs = 4 ; lr = 0.0001
+resultados: {'val_loss': 1.7779934406280518, 'val_acc': 0.3545898497104645}
+
+ SEGUNDA ARQUITECTURA 
+cantidad de hidden layers: 2 
+ tamaños: 32 y 16
+fits de history: 
+ 1) epochs = 5 ; learning rate = 0.01
+ 2) epochs = 2 ; learning rate = 0.003
+ 3) epochs = 4 ; learning rate = 0.0001
+ 4) epochs = 3 ; learning rate = 1e-06resultados: {'val_loss': 1.870758056640625, 'val_acc': 0.32636719942092896}
+ TERCER ARQUITECTURA 
+cantidad de hidden layers: 3 
+ tamaños: 64 y 32 y 16
+fits de history: 
+ 1) epochs = 5 ; learning rate = 0.01
+ 2) epochs = 2 ; learning rate = 0.003
+ 3) epochs = 4 ; learning rate = 0.0001
+ 4) epochs = 3 ; learning rate = 1e-06
+ resultados: {'val_loss': 1.9051082134246826, 'val_acc': 0.29365235567092896}
